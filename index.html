@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="leftnav">
+        <span>GhostCode</span>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="rightnav">
+        <input type="search" placeholder="Search here" autofocus id="search" />
+        <button class="btn" id="login">Login</button>
+        <button class="btn" id="signup">Signup</button>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="container">pore dolorem, architecto deserunt. Incidunt unde possimus animi laboriosam architecto voluptatibus laudantium nihil magni esse hic, deleniti soluta, ex magnam nisi porro quod ratione pariatur asperiores voluptates ipsum ut error dolorem quaerat temporibus. Error tempore ut quia repudiandae nisi vel vitae, saepe similique molestias soluta officiis eius qui voluptatem corrupti assumenda hic laboriosam ducimus necessitatibus, nesciunt, blanditiis veritatis! Explicabo cumque ipsam nam quidem assumenda modi possimus consequuntur impedit. Necessitatibus possimus odit atque magnam nostrum officia odio modi a veritatis nihil, perspiciatis excepturi expedita, laboriosam est. Cupiditate porro nobis omnis corrupti dignissimos alias consequuntur facere? Magni voluptate optio eveniet ea aliquam culpa, labore laudantium nulla fugit maiores aperiam maxime sapiente laboriosam quidem architecto odio repellat ad non repudiandae. Quidem rem cum repellendus, aperiam neque sapiente esse placeat quisquam, numquam nesciunt rerum vel. Sequi totam quidem praesentium asperiores non ea blanditiis sint dolorum consequuntur officia eius reiciendis, autem quod. Mollitia reprehenderit commodi debitis, numquam a tenetur harum id possimus ipsum placeat aliquam? Quia magni est suscipit tenetur aliquid. Ipsam obcaecati nemo et, eaque, at excepturi hic nulla deleniti ipsum reiciendis itaque placeat unde facere libero officia alias totam consectetur reprehenderit. Fugiat beatae minus consequatur, omnis quae modi, mollitia, id accusamus numquam nisi possimus laborum magni repudiandae quibusdam. Accusantium suscipit repellat accusamus eveniet. Deserunt impedit dolores ea eaque repudiandae culpa. Fugit doloribus rem sunt sequi aliquid nesciunt repellat aperiam quo rerum facere quaerat corrupti deserunt, sint totam consectetur ipsa laboriosam eos. Eveniet accusamus impedit deleniti autem quas, illum illo </div>
+      <section class="home">
+      <form action="#">
+        <div class="form" id="loginform">
+          <i class="fa-solid fa-circle-xmark close"  id="close"></i>
+          <h3>Login</h3>
+          <div class="input-box">
+            <input type="email" id="email" placeholder="Enter your email" />
+            <i class="fa-regular fa-envelope env1"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              id="pass"
+              placeholder="Enter your password"
+              autocomplete="off"
+
+            />
+            <i class="fa-solid fa-lock pass"></i>
+            <i class="fa-regular fa-eye eye lock"></i>
+            <i class="fa-sharp fa-regular fa-eye-slash eye2 lock"></i>
+          </div>
+          <div class="option">
+            <span>
+              <input type="checkbox" id="check" name="check" />
+              <label for="check">Remember Me</label>
+            </span>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button class="log" id="fsignin">Login</button>
+          <p>Not a member? <a href="#" id="create">Signup</a></p>
+        </div>
+      </form>
+
+      <form action="#">
+        <div class=" form signup-form" id="signupform">
+          <i class="fa-solid fa-circle-xmark close" id="close1"></i>
+          <h3>Create account</h3>
+          <div class="input-box">
+            <input type="email" id="email1" placeholder="Enter your email" />
+            <i class="fa-regular fa-envelope env"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              id="pass1"
+              placeholder="Enter your password"
+              autocomplete="off"
+            />
+            <i class="fa-solid fa-lock pass"></i>
+            <i class="fa-regular fa-eye eye lock"></i>
+            <i class="fa-sharp fa-regular fa-eye-slash eye2 lock"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              id="cpass1"
+              placeholder="Confirm your password"
+              autocomplete="off"
+
+            />
+            <i class="fa-solid fa-lock pass1 "></i>
+            <i class="fa-regular fa-eye eye1 lock"></i>
+            <i class="fa-sharp fa-regular fa-eye-slash eye12 lock"></i>
+          </div>
+         
+          <button class="sign" id="fsignup">Signup</button>
+          <p>Already a member? <a href="#" id="signin">Login here</a></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
